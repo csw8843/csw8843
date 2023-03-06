@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>app</title>
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body>
+    <div class="black-bg">
+      <div class="container">
+        <!-- //시계와 로그인박스 -->
+        <div class="clock-box">
+          <h2 id="clock">00:00:00</h2>
+        </div>
+        <div class="loginBox">
+          <form class="hidden" id="login-form">
+            <input
+              required
+              maxlength="15"
+              type="text"
+              placeholder="What is your name?"
+            />
+            <input type="submit" class="loginbutton" value="Log-In" />
+          </form>
+        </div>
+        <!-- user hi? -->
+        <h1 id="greeting" class="hidden sayhello"></h1>
+        <!-- todo 박스 -->
+        <div class="write-box">
+          <form id="todo-form">
+            <input
+              type="text"
+              placeholder="Write a To Do and Press Enter"
+              required
+            />
+          </form>
+        </div>
+        <!-- todo list -->
+        <div class="todolistbox">
+          <ul id="todo-list"></ul>
+        </div>
+        <!-- quote box -->
+        <div id="quote" class="quote-box">
+          <span></span>
+          <span></span>
+        </div>
+        <!-- weather box -->
+        <div id="weather" class="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- js 링크 -->
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/localStorage.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>
