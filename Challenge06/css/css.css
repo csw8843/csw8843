@@ -1,0 +1,97 @@
+.hidden {
+  display: none;
+}
+body {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+  /* background-color: black; */
+  /* position: relative; */
+}
+
+.clock-box {
+  position: absolute;
+  top: 8%;
+}
+.weather {
+  position: absolute;
+  top: 25%;
+  font-size: 20px;
+}
+
+.loginBox {
+  width: 300px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-content: space-around;
+  position: absolute;
+  top: 40%;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+.loginBox input:first-child {
+  justify-content: center;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+.loginBox input:last-child {
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.sayhello {
+  position: absolute;
+  top: 27%;
+}
+.write-box {
+  position: absolute;
+  top: 45%;
+  box-sizing: border-box;
+}
+.write-box input {
+  height: 30px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+}
+.todolistbox {
+  position: absolute;
+  top: 50%;
+  height: 26px;
+}
+.todolistbox li {
+  text-shadow: 0px 0px 4px black;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px;
+  display: inline;
+  align-content: space-between;
+}
+.todolistbox li button {
+  border: 1px solid white;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.quote-box {
+  font-size: 15px;
+  position: absolute;
+  top: 84%;
+}
